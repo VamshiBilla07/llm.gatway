@@ -1,0 +1,23 @@
+{
+  "name": "llm-gateway",
+  "version": "1.0.0",
+  "description": "Free-tier friendly LLM gateway: auth, routing, fallback, caching, rate limiting, streaming, usage tracking",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "ioredis": "^6.0.0",
+    "mongoose": "^9.11.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
